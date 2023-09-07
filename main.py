@@ -15,7 +15,7 @@ load_dotenv()
 # Optional: add contact me email functionality (Day 60)
 # import smtplib
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = os.getenv("FLASK_KEY")
 SQLALCHEMY_DATABASE_URI = os.getenv("SQLALCHEMY_DATABASE_URI")
 
 
